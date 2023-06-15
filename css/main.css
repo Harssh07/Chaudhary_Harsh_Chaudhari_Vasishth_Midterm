@@ -38,12 +38,23 @@ nav {
   
   .hero img{
     width: -webkit-fill-available;
+    margin-top: 10px;
   }
   .services img {
     width: -webkit-fill-available;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
   }
-  .services img{
-    width: -webkit-fill-available;
+  
+  .services img:hover {
+    transform: scale(0.9);
+  }
+  
+  .info{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
   .custom-button {
     display: inline-block;
@@ -71,6 +82,64 @@ nav {
   footer p{
     text-align: center;
   }
-  footer img{
-    ai
+
+  /* Contact  */
+
+  .contact-hero{
+    background-image: url(../img/contact-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 815px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
+
+  .contact-hero h2 {
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    
+  }
+  
+  .contact-form {
+    width: auto;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: -webkit-fill-available;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
