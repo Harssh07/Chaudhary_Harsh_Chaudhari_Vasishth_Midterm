@@ -894,6 +894,12 @@ html {
   .image{
     display: none;
   }
+  .mobile-img{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
   
   
   /* 3. ---Tablet Library Grid Styles--- */
@@ -903,6 +909,7 @@ html {
     /*body {
       background: #ff0000;
     }*/
+    
   
     .full-width-grid-con {
       display: grid;
@@ -1100,6 +1107,12 @@ html {
     .image{
       display: none;
     }
+   .mobile-img{
+    display: block;
+   }
+   .navbar{
+    display: none;
+   }
   
   }
   
@@ -1111,6 +1124,9 @@ html {
         background: #00ff48;
       }*/
       .image{
+        display: block;
+      }
+      .mobile-img{
         display: block;
       }
   
@@ -1308,7 +1324,9 @@ html {
     .desktop {
       display: block;
     }
-  
+  .navbar{
+    display: block;
+  }
   }
   
   /* 5. ---X-Large Desktop Library Grid Styles--- */
