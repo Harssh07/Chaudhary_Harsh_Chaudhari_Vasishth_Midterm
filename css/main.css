@@ -1,6 +1,13 @@
 .hidden {
     display: none;
 }
+body{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
 header{
     background-color: black;
 }
@@ -44,10 +51,12 @@ nav {
     width: -webkit-fill-available;
     border-radius: 35px;
     transition: transform 0.3s ease;
+    cursor: pointer;
   }
   
   .services img:hover {
     transform: scale(0.9);
+    cursor: pointer;
   }
   
   .info{
@@ -69,6 +78,10 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+  }
+  .bold{
+    font-size: 25px;
+    font-weight: bold;
   }
   
   .custom-button:hover {
