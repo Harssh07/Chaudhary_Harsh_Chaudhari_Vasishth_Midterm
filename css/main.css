@@ -142,7 +142,8 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
-  .contact-hero h2 {
+  .contact-hero p {
+    font-size: 34px;
     color: white;
     display: flex;
     align-items: center; 
@@ -160,7 +161,12 @@ nav {
   .contact-form h2 {
     text-align: center;
   }
-  
+
+  .contact-us{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+  }
   .form-group {
     margin-bottom: 20px;
   }
