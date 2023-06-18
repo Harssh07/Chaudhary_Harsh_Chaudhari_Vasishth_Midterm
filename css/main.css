@@ -60,6 +60,7 @@ nav {
     border-radius: 35px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    margin-bottom: 10px ;
   }
   
   .services img:hover {
