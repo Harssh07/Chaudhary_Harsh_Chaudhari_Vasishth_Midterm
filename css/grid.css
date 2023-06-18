@@ -133,6 +133,11 @@
   .mobile-img{
     display: none;
   }
+ 
+    .mob-tab-text{
+      display: none;
+    }
+
   .navbar{
     display: none;
   }
@@ -346,6 +351,9 @@
    .mobile-img{
     display: block;
    }
+   .mob-tab-text{
+    display: none;
+  }
    .navbar{
     display: none;
    }
@@ -363,6 +371,9 @@
         display: block;
       }
       .mobile-img{
+        display: block;
+      }
+      .mob-tab-text{
         display: block;
       }
   
