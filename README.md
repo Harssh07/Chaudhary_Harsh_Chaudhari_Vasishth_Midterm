@@ -9,7 +9,7 @@
 
 #### css/: This directory contains the CSS files used to style our website. We have utilized modern and responsive design principles to ensure a visually appealing and user-friendly experience across various devices and screen sizes.
 
-#### mages/: This directory stores all the images used in our website, including product photos, logos, and background images. We have optimized these images for fast loading without compromising their quality.
+#### images/: This directory stores all the images used in our website, including product photos, logos, and background images. We have optimized these images for fast loading without compromising their quality.
 
 #### js/: This directory contains the JavaScript files used to enhance the functionality of our website. We have implemented interactive features such as smooth scrolling, product filtering, and dynamic content loading to provide an engaging browsing experience.
 
